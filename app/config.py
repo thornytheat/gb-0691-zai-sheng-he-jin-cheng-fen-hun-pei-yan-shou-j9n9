@@ -5,4 +5,6 @@ SHORT = 'alloy-blend'
 MODULES = ['来料接收', '成分归一', '配方约束', '混配试算', '不确定区间', '验收对照', '复配批次']
 HEADERS = ['lot', 'batch', 'mass', 'unit', 'moisture', 'element', 'assay', 'basis', 'revision']
 SAMPLE = Path(__file__).resolve().parent.parent / "sample_data" / "operations.csv"
+RETEST1 = Path(__file__).resolve().parent.parent / "sample_data" / "retest-1.csv"
+RETEST2 = Path(__file__).resolve().parent.parent / "sample_data" / "retest-2.csv"
 LIMIT = 10000
